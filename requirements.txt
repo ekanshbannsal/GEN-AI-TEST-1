@@ -1,0 +1,30 @@
+# ==============================================================================
+# Gas Turbine Maintenance Assistant - Dependencies
+# ==============================================================================
+
+# Core RAG Framework & Vector Database
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+langchain-chroma>=0.1.0
+langchain-huggingface>=0.1.0
+chromadb>=0.5.0
+
+# LLM Providers
+langchain-google-genai>=2.0.0
+google-genai>=1.0.0
+
+# Local Embeddings (Sentence Transformers & PyTorch)
+sentence-transformers>=3.0.0
+torch>=2.0.0
+
+# PDF Ingestion & Document Processing
+pymupdf>=1.24.0
+
+# Frontend UI
+streamlit>=1.35.0
+
+# Environment & Testing
+python-dotenv>=1.0.0
+pytest>=8.0.0
+pydantic>=2.7.0
